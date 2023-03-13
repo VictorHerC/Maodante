@@ -1,0 +1,111 @@
+@font-face {
+    
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" );
+    font-family: 'Montserrat';
+}
+
+.body{
+    background-image : url('/imagenes/pue.jpg');
+    background-repeat: no-repeat;
+    background-size : contain;
+    display:inline-block;
+    
+   
+  }   
+
+
+  @media (min-width: 1025px) {
+    body {
+	    background-image: url('/imagenes/pue.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    position: fixed;
+   }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+    body {
+        background-image: url('/imagenes/pue.jpg');
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-image: url('/imagenes/pue.jpg');
+    }
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+  }
+.mao{
+    width: 50px;
+    height: 50px;
+}
+.ma{
+    width: 50%;
+    height: 50%;
+    margin-left: 350px;
+}
+@-webkit-keyframes zoom {
+    from {
+      -webkit-transform: scale(0.8, 0.8);
+    }
+  
+    to {
+      -webkit-transform: scale(1.2, 1.2);
+    }
+  }
+  
+  @keyframes zoom {
+    from {
+      transform: scale(0.8, 0.8);
+    }
+  
+    to {
+      transform: scale(1.2, 1.2);
+    }
+  }
+  
+  /*Efecto de zoom de las cards y caruseles, fucniona al dar el primer click*/
+  
+  .ma{
+    -webkit-animation: zoom 20s;
+    animation: zoom 20s;
+  }
+  .Titulo{
+    text-align:center;
+    color: #313131;
+    font-size: 100px;
+   
+  }
+  .card{
+    margin-left: none;
+    width: 200%;
+    height: 200%;
+  }
+.col-md-4{
+  margin-right: 0px;
+  margin-left: none;
+  background-color: #313131;
+  width: 548px;
+}
+.col-md-8{
+  background-color: #313131;
+ 
+}
+.card-text{
+  color: aliceblue;
+  text-align:right;
+  margin-right: 200px;
+  font-size: 40px;
+  font-family: monserrat;
+  width: 450px;
+}
+.card-body{
+  width: 400px;
+}
+@media (min-width: 768px){
+.col-md-8 {
+    flex: 0 0 auto;
+    width: 60%;
+}}

@@ -1,0 +1,63 @@
+@font-face {
+    
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" );
+    font-family: 'Montserrat', sans-serif;
+}
+
+.body{
+    background-image : url('/imagenes/pue.jpg');
+    background-repeat: no-repeat;
+    background-size : contain;
+    display:inline-block;
+    
+   
+  }   
+
+
+  @media (min-width: 1025px) {
+    body {
+	    background-image: url('/imagenes/pue.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    position: fixed;
+   }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+    body {
+        background-image: url('/imagenes/pue.jpg');
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-image: url('/imagenes/pue.jpg');
+    }
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+  }
+  .Titulo{
+    text-align:center;
+    color: #313131;
+    font-size: 200px;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  .btn{
+    background-color: #313131;
+    color: blanchedalmond;
+   margin-left:120px;
+  }

@@ -1,0 +1,78 @@
+/* IMAGEN DE PUENTE */
+body{
+    font-family: 'Monserrat';
+    background: #2e2e2e 
+  }
+  /* Estilos  */
+  .contenedor{
+    width: 100%;
+    overflow: hidden;
+    display:inline-block;
+  }
+#uno{
+    font-weight: bold;
+    text-shadow:20px;
+    color: rgba(232, 236, 3, 0.966);
+    font-size: xx-large;
+    
+  }
+  #dos{
+    font-weight: bold;
+    text-shadow: 10px;
+    font-size: medium;
+    
+  }
+  
+  
+  .slider-contenedor{
+    width: 100%;
+    display: flex;
+  }
+  
+  .contenido-slider{
+    background-image: url(/imagenes/pue.jpg);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+  }
+ 
+  
+  .contenido-slider > div{
+    width: 40%;
+  }
+  
+  .contenido-slider h3{
+    font-weight: 300;
+    text-align: left;
+    line-height: 30px;
+    color: white;
+  }
+  .contenido-slider h2{
+    font-weight: 300;
+    text-align: left;
+    line-height: 30px;
+    color: white;
+  }
+  
+  .titulo{
+  
+    margin-top: 10px;
+  
+  }.btn{
+    background:#313131;
+    color:white;
+    border:0px;
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px 55px;
+    font-family: 'Times New Roman', Times, serif;
+   
+    }
+    

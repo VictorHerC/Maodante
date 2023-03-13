@@ -1,0 +1,151 @@
+.container-fluid{
+    background: linear-gradient(#2e2e2e ,#424242 ,#5a5a5a ,#707070 ,#8f8f8f , #a3a2a2 , #b6b4b4 ,  #cccccc);
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    
+    
+}
+.navbar-brand{
+    color: aliceblue;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.nav-link{
+    color: aliceblue;  
+    font-family:'Monserrat';
+    font-size: 25px;
+    position: relative;
+    padding: 5px 15px;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: -10px;
+    max-width: 150px;
+    height: center;
+    overflow: hidden;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-left: 150px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+.nav-link-active{
+    color: aliceblue;   
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+    /*logo*/
+  h1 {
+    color: aliceblue;
+    font: 'Monserrat';
+    font-size: 50px;
+    text-decoration: none ;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    
+    
+    
+
+  }
+  h2 {
+    position: relative;
+    color: aliceblue;
+    font: 'Monserrat';
+    font-size: 50px;
+    text-decoration: none ;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin-left: 150px;
+    margin-top: -100px;
+   }
+    .logo{
+        position: relative;
+        margin-left: 80px;
+        margin-top: -100px;
+    }
+  @media (max-width:600px) and (min-width:200px) {
+   .logo{
+        width: 50px;
+        height: 70%;
+        margin-left: 50px;
+        margin-top: -75px
+       
+    }
+}
+
+
+
+
+
+@media (max-width:600px) and (min-width:200px) {
+  h2{
+     
+      font-size: 30px;
+      margin-left: 100px;
+      margin-top: -75px;
+     
+  }
+}
+@media (max-width:600px) and (min-width:200px) {
+  h1{
+     
+      font-size: 30px; 
+      
+      margin-top: 0px;
+  }
+}
+ .logo:hover {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+   }
+      /*logo*/
+      @media (max-width:1350px) and (min-width:990px) {
+        h1{
+           
+            font-size: 30px; 
+            
+            margin-top: 0px;
+        }}
+        @media (max-width:1350px) and (min-width:990px) {
+          h2{
+             
+            font-size: 30px;
+            margin-left: 100px;
+            margin-top: -75px;
+          }}
+          @media (max-width:1350px) and (min-width:990px) {
+            
+               
+              .logo{
+                width: 50px;
+                height: 70%;
+                margin-left: 50px;
+                margin-top: -75px
+               
+            }
+            }
+            /*navlink*/
+            @media (max-width:1350px) and (min-width:990px) {
+            
+               
+              .nav-link{
+                color: aliceblue;  
+                font-family:'Monserrat';
+                font-size: 25px;
+                position: relative;
+                padding: 1rem;
+                border-radius: 6px;
+                text-align: center;
+                margin-top: -10px;
+                max-width: 150px;
+                height: center;
+                overflow: hidden;
+                letter-spacing: 1px;
+                text-decoration: none;
+                margin-left: 120px;
+                -webkit-tap-highlight-color: rgba(0,0,0,0);
+            }
+            
+            }
+            

@@ -1,0 +1,71 @@
+/* Estilos de el footer */
+body{
+    margin: 0;
+    position: relative;
+    padding-bottom: 3em;
+    display: flex;
+	flex-direction: column;
+    min-height: 100vh;
+    font-family:'Monserrat';
+    
+    
+  }
+
+  
+footer{
+    padding: 1em 0;
+    background-color:  #2e2e2e;
+    position:absolute;
+    width: 100%;
+    margin-top: auto;
+    right: 0;
+    left: 0;
+      
+}
+@media (max-width:1345px) and (min-width:999px) {
+  footer{
+    width: 150%;
+  }
+}
+.link-fu{
+    color: white;
+}
+.inf{
+   margin-left: 100px ;
+}
+
+#whatsapp {
+    margin-top: none;
+    position:fixed;
+    right:2px;
+    margin-top: -500px;
+    
+  }
+  /* whatsap*/
+  @media (max-width: 768px) {
+  #whatsapp {
+  margin-top:-500px;
+  }
+  }
+  svg {
+    width: 80px;
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));
+    margin-left:-20px;
+  }
+  
+  circle {
+    fill: #5c5b5b3a;
+   
+    
+  }
+  path {
+    fill: #fff;
+  }
+  circle {
+    fill: #5c5b5b2d;
+    width: 50px;
+  }
+  path {
+    fill: #fff;
+  }
+    /* whatsap*/
